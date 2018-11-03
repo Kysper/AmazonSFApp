@@ -11,7 +11,5 @@ Checked IF the stock amount was greater than the units asked.
 Subtracted the stock amount with the unit amount.
 displays the transaction complete and the stock remaining from the previously bought item.
 
-![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Database List")
-
-![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Subtracting Stock Amount + Updated it")
+![alt text](https://github.com/Kysper/AmazonSFApp/blob/master/Database.png "Database List + User Input")
 
