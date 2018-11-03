@@ -108,12 +108,14 @@ function getProduct(answer) {
     }
 }
 function populateInventory() {
-    console.log("Retrieving inventory please hold...");
+    console.log("\nRetrieving inventory please hold...\n");
+    console.log("-".repeat(100));
     connection.query("SELECT * FROM products", function (err, res) {
         if (err) throw err;
         res.forEach(element => {
             console.log(`ID: ${element.item_id} | Name: ${element.product_name} | Department: ${element.department_name} | Price: ${element.price} | In Stock: ${element.stock_quantity}`);
         });
+        console.log("-".repeat(100));
         console.log("\n");
         start();
     });
